@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="B_Account" xml:space="preserve">
+    <value>👤 Account</value>
+  </data>
+  <data name="B_AllApplicableRings" xml:space="preserve">
+    <value>⭕️ ALL APPLICABLE RINGS</value>
+  </data>
+  <data name="B_AllDeviceFamilies" xml:space="preserve">
+    <value>⭕️ ALL DEVICE FAMILIES</value>
+  </data>
+  <data name="B_AllRings" xml:space="preserve">
+    <value>⭕️ ALL RINGS</value>
+  </data>
+  <data name="B_AllSubscribed" xml:space="preserve">
+    <value>❕ ALL SUBSCRIBED</value>
+  </data>
+  <data name="B_AllUnsubscribed" xml:space="preserve">
+    <value>❗️ ALL UNSUBSCRIBED</value>
+  </data>
+  <data name="B_Back" xml:space="preserve">
+    <value>◀️ Back</value>
+  </data>
+  <data name="B_BotSettings" xml:space="preserve">
+    <value>⚙️ Bot Settings</value>
+  </data>
+  <data name="B_ChangeLanguage" xml:space="preserve">
+    <value>🗣 Change Language</value>
+  </data>
+  <data name="B_DeleteAccount" xml:space="preserve">
+    <value>❌ Delete account</value>
+  </data>
+  <data name="B_Everything" xml:space="preserve">
+    <value>⭕️ EVERYTHING</value>
+  </data>
+  <data name="B_GroupSettings" xml:space="preserve">
+    <value>👥 Group settings</value>
+  </data>
+  <data name="B_Notifications" xml:space="preserve">
+    <value>📨 Notifications</value>
+  </data>
+  <data name="B_Search" xml:space="preserve">
+    <value>🔍 Search</value>
+  </data>
+  <data name="B_SearchNow" xml:space="preserve">
+    <value>🔄 Search updates now!</value>
+  </data>
+  <data name="B_Start" xml:space="preserve">
+    <value>🏘 Start page</value>
+  </data>
+  <data name="B_SubscribeAll" xml:space="preserve">
+    <value>☑️ SUBSCRIBE ALL</value>
+  </data>
+  <data name="B_UnsubscribeAll" xml:space="preserve">
+    <value>❌ UNSUBSCRIBE ALL</value>
+  </data>
+  <data name="B_Updates" xml:space="preserve">
+    <value>🔄 Updates</value>
+  </data>
+  <data name="B_Web" xml:space="preserve">
+    <value>🌐 Web</value>
+  </data>
+  <data name="P_Account" xml:space="preserve">
+    <value>🆔 ID: {0}
+
+👤 Level: {1}
+
+📅 Registered on: {2}
+
+🗣 Language: {3}</value>
+  </data>
+  <data name="P_AlreadySearching" xml:space="preserve">
+    <value>⚠️ ProtoBuild is already searching for updates, please wait a few minutes then retry.
+Started searching: {0} minute(s) ago
+
+Your choice: &lt;b&gt;{1}&lt;/b&gt;, &lt;b&gt;{2}&lt;/b&gt;</value>
+  </data>
+  <data name="P_CmdAborted" xml:space="preserve">
+    <value>❕ Command aborted.</value>
+  </data>
+  <data name="P_CmdNotFound" xml:space="preserve">
+    <value>🤐 Command not found. Use the interactive version,  press the button below.</value>
+  </data>
+  <data name="P_DetailedUpdates" xml:space="preserve">
+    <value>Showing &lt;b&gt;{0}&lt;/b&gt; latest BuildLab for each ring:
+
+{1}</value>
+  </data>
+  <data name="P_Expired" xml:space="preserve">
+    <value>This message is expired (too old). Click below to start again.</value>
+  </data>
+  <data name="P_HelpAdmin" xml:space="preserve">
+    <value>Hi &lt;a href="tg://user?id={0}"&gt;{1}&lt;/a&gt; [ID: &lt;code&gt;{0}&lt;/code&gt;] (ADMIN),
+this is the Start page, below there are a few commands you can use.</value>
+  </data>
+  <data name="P_HelpCreator" xml:space="preserve">
+    <value>Hi master of bots [ID: &lt;code&gt;{0}&lt;/code&gt;],
+do what you need to do.</value>
+  </data>
+  <data name="P_HelpGroup" xml:space="preserve">
+    <value>Hi, this is the Start page, below there are a few commands you can use.</value>
+  </data>
+  <data name="P_HelpMod" xml:space="preserve">
+    <value>Hi &lt;a href="tg://user?id={0}"&gt;{1}&lt;/a&gt; [ID: &lt;code&gt;{0}&lt;/code&gt;] (MOD),
+this is the Start page, below there are a few commands you can use.</value>
+  </data>
+  <data name="P_HelpUser" xml:space="preserve">
+    <value>Hi &lt;a href="tg://user?id={0}"&gt;{1}&lt;/a&gt; [ID: &lt;code&gt;{0}&lt;/code&gt;],
+this is the Start page, below there are a few commands you can use.</value>
+  </data>
+  <data name="P_Language" xml:space="preserve">
+    <value>In this page you can select the display language.
+
+🗣 Selected language: &lt;b&gt;{0}&lt;/b&gt;</value>
+  </data>
+  <data name="P_NewUpdateFound" xml:space="preserve">
+    <value>🔄 {0} New &lt;b&gt;{1}&lt;/b&gt; update! 💍 &lt;b&gt;{2}&lt;/b&gt; ({3})
+</value>
+    <comment>0 = Emoji device | 1 = Device Family | 2 = Ring name | 3 = Arch</comment>
+  </data>
+  <data name="P_NewUpdateFoundBLE" xml:space="preserve">
+    <value>📣 &lt;b&gt;Build Lab Extended&lt;/b&gt;:
+&lt;code&gt;{0}&lt;/code&gt;
+</value>
+    <comment>0 = Build Lab Extended provided by UpdateAgent.dll</comment>
+  </data>
+  <data name="P_NewUpdateFoundDE" xml:space="preserve">
+    <value>➡️ &lt;b&gt;Description&lt;/b&gt;:
+{0}</value>
+    <comment>0 = Description provided by UUP</comment>
+  </data>
+  <data name="P_NewUpdateFoundTitle" xml:space="preserve">
+    <value>➡️ &lt;b&gt;Title&lt;/b&gt;:
+{0}
+</value>
+    <comment>0 = Title provided by UUP</comment>
+  </data>
+  <data name="P_Search" xml:space="preserve">
+    <value>On this page you can select each device family and ring and check for updates</value>
+  </data>
+  <data name="P_SearchCompleted" xml:space="preserve">
+    <value>✅ Searching updates done.</value>
+  </data>
+  <data name="P_SearchConfirm" xml:space="preserve">
+    <value>Click on "Search updates now!" to start searching.
+Your choice: &lt;b&gt;{0}&lt;/b&gt;, &lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="P_SearchingNow" xml:space="preserve">
+    <value>Ok, I'm searching for updates. I'll notify you when the searches completes</value>
+  </data>
+  <data name="P_SearchRing" xml:space="preserve">
+    <value>Selected device family: &lt;b&gt;{0}&lt;/b&gt;
+Choose a ring.</value>
+  </data>
+  <data name="P_Subscribe" xml:space="preserve">
+    <value>Here you can select which device family to subscribe to. Remember that you'll get notified for all rings of the selected device family.</value>
+  </data>
+  <data name="P_Updates" xml:space="preserve">
+    <value>In this page you can select the device family for which display the latest BuildLab.</value>
+  </data>
+  <data name="P_UseInteractiveVersion" xml:space="preserve">
+    <value>Please use the interactive version, press the button below.</value>
+  </data>
+  <data name="W_AllApplicableRings" xml:space="preserve">
+    <value>all applicable rings</value>
+  </data>
+  <data name="W_AllRings" xml:space="preserve">
+    <value>all rings</value>
+  </data>
+  <data name="W_Everything" xml:space="preserve">
+    <value>everything</value>
+  </data>
+  <data name="Z_CommandIncomplete" xml:space="preserve">
+    <value>Incomplete command!</value>
+  </data>
+  <data name="Z_DBCheckCompleted" xml:space="preserve">
+    <value>Check completed.</value>
+  </data>
+  <data name="Z_DBCheckingMigration" xml:space="preserve">
+    <value>Checking if migration is needed...</value>
+  </data>
+  <data name="Z_DBConnectionOpened" xml:space="preserve">
+    <value>DB Connection opened!</value>
+  </data>
+  <data name="Z_DBCreatingTables" xml:space="preserve">
+    <value>Creating DB tables...</value>
+  </data>
+  <data name="Z_DBMigrationCompleted" xml:space="preserve">
+    <value>Migration completed.</value>
+  </data>
+  <data name="Z_DBNoMigration" xml:space="preserve">
+    <value>No migration is needed.</value>
+  </data>
+  <data name="Z_DBStoreIsTooNew" xml:space="preserve">
+    <value>The database store version is too new.</value>
+  </data>
+  <data name="Z_RunningMigration" xml:space="preserve">
+    <value>Running DB migration (to version: {0})</value>
+  </data>
+  <data name="Z_RunningPostUpgrade" xml:space="preserve">
+    <value>Running post upgrade actions (num: {0})</value>
+  </data>
+  <data name="Z_SearchStarted" xml:space="preserve">
+    <value>Search started</value>
+  </data>
+</root>

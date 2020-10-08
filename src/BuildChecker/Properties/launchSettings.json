@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BuildChecker": {
+      "commandName": "Project",
+      "commandLineArgs": "HoloLens2 WIF arm64 B19H1 \"C:\\HL2\\TMP\""
+    }
+  }
+}
